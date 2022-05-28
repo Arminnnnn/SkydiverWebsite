@@ -1,0 +1,31 @@
+<h1>Leaderboard</h1>
+
+<div class="container">
+    
+    <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
+        
+          <ng-container matColumnDef="id">
+            <th mat-header-cell mat-sort-header *matHeaderCellDef> ID </th>
+            <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="username">
+            <th mat-header-cell *matHeaderCellDef> Username </th>
+            <td mat-cell *matCellDef="let element"> {{element.userName}} </td>
+          </ng-container>
+        
+          <ng-container matColumnDef="userHighscore">
+            <th mat-header-cell mat-sort-header *matHeaderCellDef> Highscore </th>
+            <td mat-cell *matCellDef="let element"> {{element.userHighscore}} </td>
+          </ng-container>
+        
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator #paginator
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 50]"
+              aria-label="Select page">
+    </mat-paginator>
+</div>
+
