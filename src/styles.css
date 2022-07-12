@@ -1,5 +1,10 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+@font-face {
+	font-family: 'pixelfont';
+	src: URL('./assets/font/LeaderBoardFont.TTF') format('truetype');
+  }
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .parent {
@@ -143,3 +148,24 @@ table {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html::-webkit-scrollbar{
+	width: 1.5vh;
+}
+
+html::-webkit-scrollbar-thumb{
+	background-color: #4f291c84;
+	border-radius: 2vh;
+}
+
+html::-webkit-scrollbar-thumb:hover{
+	background-color: #4F291C;;
+}
+
+html::-webkit-scrollbar-track{
+	background-color: #7C4D2B;
+}
+
+html::-webkit-scrollbar-track:hover{
+	background-color: #7c4d2ba2;
+}

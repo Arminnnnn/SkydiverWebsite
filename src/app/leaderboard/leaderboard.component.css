@@ -16,3 +16,41 @@ body{
     justify-content: center;
     margin-bottom: 3vh;
 }
+
+.leaderboardbackground{
+    background-image: url('../../assets/images/LeaderboardBackground.png');
+    background-size: 100%;
+}
+
+.mat-header-cell{
+    background-color: #7C4D2B;
+}
+
+.mat-row:nth-child(even){
+    background-color: #4F291C;
+}
+
+.mat-row:nth-child(odd){
+    background-color: #4F291C;
+}
+
+.mat-paginator{
+    background-color: #7C4D2B;
+    color: white;
+    font-family: pixelfont;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.mat-cell{
+    color: white;
+    font-family: pixelfont;
+    font-size: larger;
+}
+
+.mat-header-cell{
+    color: white;
+    font-family: pixelfont;
+    font-size: larger;
+    font-weight: bold;
+}
