@@ -1,6 +1,6 @@
-<h1>Leaderboard</h1>
-
-<div class="container">
+<body class="leaderboardbackground">
+  <a class="leaderboardHeader"><img src="../../assets/images/LeaderboardHeader.svg" alt="Leader"></a>
+  <div class="container, leaderboard">
     
     <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
         
@@ -27,5 +27,5 @@
               [pageSizeOptions]="[5, 10, 25, 50]"
               aria-label="Select page">
     </mat-paginator>
-</div>
-
+  </div>
+</body>

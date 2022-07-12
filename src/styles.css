@@ -126,7 +126,7 @@ body {
 .main-wrapper .mat-stroked-button {
 	border: 1px solid currentColor;
 	line-height: 54px;
-	background: #FFF7FA;
+	background: #e5e5e5;
 }
 
 .main-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {

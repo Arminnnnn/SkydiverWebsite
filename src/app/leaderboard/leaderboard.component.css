@@ -1,0 +1,18 @@
+body{
+    background-color: #a9d4fb;
+    height: max-content;
+}
+
+.leaderboard{
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+.leaderboardHeader{
+    font-weight: bold;
+    font-size: 48px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
